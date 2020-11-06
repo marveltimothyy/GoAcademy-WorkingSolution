@@ -3,7 +3,6 @@ import java.util.*;
 public class Solution {
 
     public static void main(String[] args) {
-//        System.out.println("Hello World");
         Scanner sc = new Scanner(System.in);
         String inpt;
         String [] dat = new String[2];
@@ -34,6 +33,5 @@ public class Solution {
                 System.out.println("");
             }
         }while((!dat[0].equals("exit")));
-//        System.out.println(Arrays.toString(dat));
     }
 }
